@@ -1,16 +1,6 @@
 # robot_servo_control
+A very simple flutter control.
 
-A new Flutter project.
+Bluetooth Control pan/tilt servo motor 
 
-## Getting Started
-
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+![WhatsApp Image 2022-07-07 at 19 08 53](https://user-images.githubusercontent.com/42210628/177879932-1f00f6d0-c3fb-4f0c-9022-51b6399fbab5.jpeg)
