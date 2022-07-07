@@ -41,8 +41,8 @@ class _ConectadoState extends State<Conectado> {
   }
 
   _getBTConnection() {
-    BluetoothConnection.toAddress(widget.server.address).then((connection) {
-      connection = connection;
+    BluetoothConnection.toAddress(widget.server.address).then((_connection) {
+      connection = _connection;
       isConnecting = false;
       isDisconnecting = false;
       controle.connection = connection;
@@ -93,6 +93,7 @@ class _ConectadoState extends State<Conectado> {
     super.initState();
     _getBTConnection();
 
+    //_timer = RestartableTimer(const Duration(seconds: 1), _drawImage);
   }
 
   @override
